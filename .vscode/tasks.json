@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Playdate",
+      "type": "shell",
+      "command": "${config:playdate.sdkPath}\\bin\\pdc",
+      "args": [
+        "${workspaceRoot}\\source",
+        "${workspaceRoot}\\output.pdx"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

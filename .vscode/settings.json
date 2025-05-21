@@ -1,0 +1,26 @@
+{
+    "Lua.runtime.nonstandardSymbol": [
+        "+=",
+        "-=",
+        "*=",
+        "/="
+    ],
+    "editor.gotoLocation.alternativeDeclarationCommand": "editor.action.revealDefinition",
+    "editor.gotoLocation.alternativeDefinitionCommand": "editor.action.revealDefinition",
+    "editor.gotoLocation.alternativeTypeDefinitionCommand": "editor.action.revealDefinition",
+    "editor.selectionHighlight": false,
+    "files.autoSave": "onFocusChange",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "on"
+    },
+    "playdate.source": "Source",
+    "playdate.output": "Output.pdx",
+    // Optionally set sdkPath if not PLAYDATE_SDK_PATH is configured.
+    "playdate.sdkPath": "C:\\Users\\tedyp\\OneDrive\\Documents\\PlaydateSDK",
+    "Lua.workspace.library": [
+        "C:\\Users\\tedyp\\OneDrive\\Documents\\PlaydateSDK\\CoreLibs"
+    ],
+}
